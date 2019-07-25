@@ -1,8 +1,10 @@
-# MIDI.js Soundfonts
+# midicube/MIDI.js Soundfonts
 
 [MIDI.js](https://github.com/mudcube/MIDI.js) is a fantastic library for MIDI sequencing and playback in Javascript. It comes packaged with a [soundfont-generator](https://github.com/mudcube/MIDI.js/blob/master/soundfont-generator/ruby/soundfont_builder.rb) that is unfortuantely a little difficult to get up and running (requires installation of Ruby, Node.js, FluidSynth, Lame, etc.)
 
 This project contains pre-rendered [General MIDI](https://en.wikipedia.org/wiki/General_MIDI) soundfonts that can be used immediately with MIDI.js.
+
+This release contains only sound files that are connected to classical instruments (and a very few others) in order to keep the size down for use in music notation apps.  So helicopter and gunshot are gone, for instance.
 
 Soundfonts Available
 ----
@@ -12,13 +14,6 @@ Soundfonts Available
     - Released under [Creative Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/us/)
     - Instrument names as .json file [here](http://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/names.json)
     - URL prefix to fetch files: http://gleitz.github.io/midi-js-soundfonts/FluidR3_GM/
-
-- Musyng Kite Soundfont
-    - Generated from [Musyng Kite.sfpack](http://www.synthfont.com/punbb/viewtopic.php?id=167) (1 GB uncompressed)
-    - Released under [Creative Commons Attribution Share-Alike 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/)
-    - Instrument names as .json file [here](http://gleitz.github.io/midi-js-soundfonts/MusyngKite/names.json)
-    - URL prefix to fetch files: http://gleitz.github.io/midi-js-soundfonts/MusyngKite/
-
 
 Notes
 -----
